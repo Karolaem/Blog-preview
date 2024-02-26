@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(243,211,76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 10px 10px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+@font-face {
+    font-family: "figtree";
+    src: url(Figtree-VariableFont_wght.ttf);
+}
+
+.learning{
+    margin-top: 20px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(243,211,76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: figtree;
+}
+
+.container .date{
+    font-family: figtree;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.container .html h1{
+    font-family: figtree;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:rgb(243,211,76) ;
+}
+
+.container .html p{
+    font-family: figtree;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.container .profile-picture img{
+    width: 30px;
+}
+
+.container .profile-picture strong{
+    font-family: figtree;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-top: -30px;
+    display: block;
+
+}
